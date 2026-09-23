@@ -1,0 +1,11 @@
+# sync-labels.sh --all 대상. 형식: 레포 <TAB> 추가 스코프(공백 구분, 없으면 생략)
+# 새 레포를 만들면 여기 한 줄 추가한다. common 은 항상 적용된다.
+jump-section	ai public
+Eobom-fullstack
+job-mate
+edencrew
+egnis
+WEFLOW
+live-class-assignment
+stunning-assignment
+TIMWORK-assignment

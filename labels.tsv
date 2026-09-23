@@ -1,0 +1,30 @@
+# bae080311 계정 공통 라벨 (SSOT)
+#
+# GitHub 은 .github 레포로 라벨을 상속시키지 않는다 — 기본 라벨 설정은 org 전용이고 개인 계정엔
+# 없다. 그래서 scripts/sync-labels.sh 가 gh 로 밀어넣는다.
+#
+# 형식: 이름 <TAB> 색 <TAB> 스코프 <TAB> 설명
+#
+#   common  모든 레포
+#   ai      AI 파이프라인 워크플로우가 있는 레포만. 붙이면 실제로 뭔가 돈다 —
+#           워크플로우 없는 곳에 두면 붙여도 아무 일이 안 일어나는 거짓 라벨이 된다
+#   public  외부 기여가 가능한 공개 레포만 (npm 배포 등)
+#
+# 여기 없는 라벨은 건드리지 않는다. 삭제도 하지 않는다 — 지우면 기존 이슈에서 떨어진다.
+
+# ── 종류: 이슈가 무엇인가
+bug	d73a4a	common	버그
+enhancement	a2eeef	common	새 기능·개선
+documentation	0075ca	common	문서
+chore	cfd3d7	common	빌드·설정·의존성 — 제품 동작이 안 바뀌는 작업
+harness	5319e7	common	.claude 하네스·자동화 — 표준·훅·스킬·에이전트
+
+# ── AI 파이프라인: 붙이면 워크플로우가 돈다. 장식이 아니다
+ai-proposal	f67369	ai	AI 가 제안한 이슈 (weekly-planning.yml 생성)
+ai-implement	0e8a16	ai	AI 자동 구현 트리거 — 붙으면 구현 후 Draft PR 생성
+gemini	354fe0	ai	Gemini Code Assist 리뷰 대상
+
+# ── 외부 기여
+good first issue	7057ff	public	처음 기여하기 좋은 이슈
+help wanted	008672	public	도움이 필요한 이슈
+question	d876e3	public	질문·논의
