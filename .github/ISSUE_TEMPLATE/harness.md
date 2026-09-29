@@ -7,7 +7,7 @@ labels: documentation
 
 표준은 [claude-config `shared/conventions/architecture.md`](https://github.com/bae080311/claude-config/blob/main/shared/conventions/architecture.md) 가 SSOT다.
 
-## 6계층
+## 🧱 6계층
 
 | 계층 | 위치 | 역할 |
 | --- | --- | --- |
@@ -18,13 +18,13 @@ labels: documentation
 | Hook | `.claude/hooks/*.sh` + `settings.json` | 도구 사용 전후 자동 검증 |
 | Flywheel | `.claude/flywheel/learnings.md` | 피드백을 규칙으로 되먹임 |
 
-## 이 레포의 편차
+## ⚠️ 편차
 
 <!-- 표준과 어긋난 것을 여기에 나열한다 -->
 
 - [ ]
 
-## 공통 체크리스트
+## ✅ 공통 체크리스트
 
 - [ ] `.claude/commands/` 없음 — 절차는 Skill, 격리 실행은 Agent
 - [ ] 훅 스크립트가 `hooks/` 에 있음 (`scripts/` 아님)
