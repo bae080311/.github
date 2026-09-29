@@ -2,7 +2,7 @@
 name: 개발 작업
 about: 구현할 작업을 등록합니다
 title: '[TASK] '
-labels: enhancement
+labels: feature
 ---
 
 ## 📝 작업 내용

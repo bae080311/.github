@@ -14,10 +14,18 @@
 
 # ── 종류: 이슈가 무엇인가
 bug	d73a4a	common	버그
-enhancement	a2eeef	common	새 기능·개선
+feature	1d76db	common	새 기능 개발
+enhancement	a2eeef	common	기존 기능 개선
+refactor	fbca04	common	동작은 그대로, 구조만 개선
+test	bfd4f2	common	테스트 추가·수정
 documentation	0075ca	common	문서
-chore	cfd3d7	common	빌드·설정·의존성 — 제품 동작이 안 바뀌는 작업
+chore	cfd3d7	common	의존성·빌드 설정 등 잡무 — 제품 동작이 안 바뀌는 작업
 harness	5319e7	common	.claude 하네스·자동화 — 표준·훅·스킬·에이전트
+
+# ── 영역: 어디를 건드리는가. 종류 라벨과 함께 붙인다 (예: feature + api)
+setup	c5def5	common	환경 세팅 — 프로젝트 초기 구성·개발 환경·CI/CD
+api	006b75	common	API 개발·연동 — 엔드포인트·서버 통신
+publishing	f9d0c4	common	퍼블리싱 — 마크업·스타일·반응형 (로직 없음)
 
 # ── AI 파이프라인: 붙이면 워크플로우가 돈다. 장식이 아니다
 ai-proposal	f67369	ai	AI 가 제안한 이슈 (weekly-planning.yml 생성)

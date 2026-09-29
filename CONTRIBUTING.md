@@ -36,8 +36,9 @@ AI 가 만든 PR 은 제목에 `[AI]`, `draft: true`, 본문 하단에 생성 �
 
 | 라벨 | 언제 |
 | --- | --- |
-| `bug` `enhancement` `documentation` | 이슈의 종류 |
+| `bug` `feature` `enhancement` `refactor` `test` `documentation` | 이슈의 종류 — 하나만 |
 | `chore` | 제품 동작이 안 바뀌는 작업 |
+| `setup` `api` `publishing` | 작업 영역 — 종류와 함께 붙인다 (예: `feature` + `api`) |
 | `harness` | `.claude` 하네스·자동화 |
 | `ai-proposal` `ai-implement` `gemini` | **붙이면 워크플로우가 돈다.** 해당 자동화가 있는 레포에만 존재 |
 
